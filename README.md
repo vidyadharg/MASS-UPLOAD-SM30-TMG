@@ -1,7 +1,7 @@
 # Mass-upload-SM30-TMG
 Mass upload download data in SM30 TMG
 
-### One program to Mass upload/download records in SM30 TMG.
+### Program to Mass upload/download records in SM30 TMG.
 
 ### Two TVARVC are required.
 1. sy-tcode && '_MASS_UPLOAD_TITLE - for title
