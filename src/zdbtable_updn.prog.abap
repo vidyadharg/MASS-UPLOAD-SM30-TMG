@@ -787,7 +787,7 @@ FORM set_title.
   DATA(lv_tvarvc_title) = sy-tcode && '_MASS_UPLOAD_TITLE'.
   SELECT SINGLE low FROM tvarvc INTO lv_title WHERE name = lv_tvarvc_title.
   IF sy-subrc = 0.
-    SET TITLEBAR 'TCODE1' WITH lv_title.
+    SET TITLEBAR 'TITLE1' WITH lv_title.
     sy-title = lv_title.
   ENDIF.
 ENDFORM.
